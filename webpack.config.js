@@ -76,12 +76,15 @@ module.exports = {
     extensions: ['*', '.js', '.vue', '.json']
   },
   devServer: {
-    historyApiFallback: true,
-    noInfo: true,
-    overlay: true,
-    allowedHosts: [
-      '.aggr.dev'
-    ]
+    // historyApiFallback: true,
+    // noInfo: true,
+    // overlay: true,
+    // // allowedHosts: [
+    // //   '.aggr.dev'
+    // // ]
+
+    compress: true,
+    port: 9000
   },
   performance: {
     hints: false

@@ -109,7 +109,7 @@ export default {
 
     // Is request blocked by browser ?
     // If true notice user that most of the exchanges may be unavailable
-    fetch('showads.js')
+    /* fetch('showads.js')
       .then(() => {})
       .catch((response, a) => {
         socket.$emit('alert', {
@@ -119,6 +119,7 @@ export default {
           id: `adblock_error`,
         })
       })
+      */
 
     socket.initialize()
 
